@@ -1,6 +1,10 @@
+
 # Huawei GT 3 Pro AstroClock
 
 A lightweight text-based astrology app for **Huawei GT 3 Pro / liteWearable** built with DevEco Studio.
+
+## Preview
+![Huawei GT 3 Pro AstroClock](screenshots/astroclock-preview.jpg)
 
 ## Development requirements
 

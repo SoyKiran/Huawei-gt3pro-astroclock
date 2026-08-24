@@ -2,7 +2,8 @@
 
 Text-based astrology clock for Huawei GT 3 Pro / Lite Wearable.
 
-<img src="screenshot.jpg" width="260" alt="Huawei GT 3 Pro AstroClock Text screenshot">
+<img width="347" height="481" alt="2026-08-25 00_37_59" src="https://github.com/user-attachments/assets/d3068eb0-7142-4405-acd6-b5b66ea978e1" />
+
 
 ## Target
 - Huawei GT 3 Pro

@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+build/
+entry/build/
+entry/.preview/
+local.properties
+*.hap
+*.bin
+*.p12
+*.p7b
+*.cer

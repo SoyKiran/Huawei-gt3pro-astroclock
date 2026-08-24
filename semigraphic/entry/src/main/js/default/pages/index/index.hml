@@ -1,0 +1,87 @@
+<div class="container">
+    <stack class="stack">
+        <div class="main-layout">
+            <div class="top-spacer"></div>
+
+            <div class="row">
+                <div class="sector-cell top-left" style="border-color: {{slot10Color}};">
+                    <text class="sign-text">11 {{slot10Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot10Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="sector-cell top-center" style="border-color: {{slot9Color}};">
+                    <text class="sign-text">10 {{slot9Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot9Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="sector-cell top-right" style="border-color: {{slot8Color}};">
+                    <text class="sign-text">9 {{slot8Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot8Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sector-cell left-upper" style="border-color: {{slot11Color}};">
+                    <text class="sign-text">12 {{slot11Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot11Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="empty-cell"></div>
+                <div class="sector-cell right-upper" style="border-color: {{slot7Color}};">
+                    <text class="sign-text">8 {{slot7Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot7Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sector-cell left-middle" style="border-color: {{slot0Color}};">
+                    <text class="sign-text">1 {{slot0Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot0Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+
+                <div class="center-box">
+                    <list class="center-list">
+                        <list-item class="center-item"><text class="center-white-text">{{timeText}}</text></list-item>
+                        <list-item class="center-item"><text class="center-white-text">{{dateText}}</text></list-item>
+                        <list-item class="center-item"><text class="center-gps-text">{{latText}}</text></list-item>
+                        <list-item class="center-item"><text class="center-gps-text">{{lonText}}</text></list-item>
+                    </list>
+                </div>
+
+                <div class="sector-cell right-middle" style="border-color: {{slot6Color}};">
+                    <text class="sign-text">7 {{slot6Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot6Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sector-cell left-lower" style="border-color: {{slot1Color}};">
+                    <text class="sign-text">2 {{slot1Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot1Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="empty-cell"></div>
+                <div class="sector-cell right-lower" style="border-color: {{slot5Color}};">
+                    <text class="sign-text">6 {{slot5Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot5Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sector-cell bottom-left" style="border-color: {{slot2Color}};">
+                    <text class="sign-text">3 {{slot2Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot2Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="sector-cell bottom-center" style="border-color: {{slot3Color}};">
+                    <text class="sign-text">4 {{slot3Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot3Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+                <div class="sector-cell bottom-right" style="border-color: {{slot4Color}};">
+                    <text class="sign-text">5 {{slot4Sign}}</text>
+                    <list class="body-list"><list-item class="body-item" for="{{slot4Bodies}}"><text class="body-text" style="color: {{bodyColor}};">{{$item}}</text></list-item></list>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading-layout" show="{{!isLoaded}}">
+            <progress type="arc" class="progress-arc"></progress>
+            <text class="status-label">{{statusText}}</text>
+        </div>
+    </stack>
+</div>

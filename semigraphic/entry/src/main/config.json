@@ -1,0 +1,43 @@
+{
+  "app": {
+    "bundleName": "com.amcikhuaweinin.amina",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": ["liteWearable"],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "Location is required to calculate astrological positions.",
+        "usedScene": {
+          "ability": ["default"],
+          "when": "inuse"
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": ["pages/index/index"],
+        "name": "default"
+      }
+    ]
+  }
+}

@@ -1,7 +1,30 @@
-
 # Huawei GT 3 Pro AstroClock
 
-A lightweight text-based astrology app for **Huawei GT 3 Pro / liteWearable** built with DevEco Studio.
+A lightweight astrology app for **Huawei GT 3 Pro / liteWearable** built with DevEco Studio.
+
+## Semigraphic edition
+
+A newer semigraphic interface is available in [`semigraphic/`](semigraphic/).
+
+![Huawei GT 3 Pro AstroClock Semigraphic](semigraphic/screenshot.jpeg)
+
+### Important real-device rendering note
+
+The semigraphic version was tested on the physical Huawei GT 3 Pro. In this interface, text should use **22 px**. Smaller values such as 14–18 px may appear correctly in DevEco Preview but can disappear on the physical watch. For this project, use the real watch as the rendering reference.
+
+Semigraphic development target:
+
+- DevEco Studio: **3.1.0.501**
+- API version: **API 5**
+- Target device: **Huawei GT 3 Pro**
+- Device type: **liteWearable**
+- Display: **466 × 466**
+
+The semigraphic edition includes Whole Sign houses numbered 1–12, element-colored borders, scrollable per-sign body lists, GPS with saved-location fallback, ASC/MC, planets and North Node. A `*` marks signs containing more than one displayed body/point; ASC and MC are included in that count.
+
+---
+
+## Original text interface
 
 ## Preview
 ![Huawei GT 3 Pro AstroClock](screenshots/2026-08-24%2014_57_02.jpg)
@@ -15,7 +38,6 @@ Device type: liteWearable
 
 This project was developed and tested with DevEco Studio 3.1.0.501
 and is intended to be built using API 5.
-
 
 ## Features
 

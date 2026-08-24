@@ -25,7 +25,6 @@ and is intended to be built using API 5.
 - Via Combusta warning for ASC or Moon
 - Scrollable text interface optimized for the 466×466 round display
 - Large and small application icons included
-- Lilith is intentionally omitted from the displayed astrology data
 
 ## Target
 

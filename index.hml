@@ -1,0 +1,55 @@
+<div class="container">
+    <stack class="stack">
+
+        <div class="main-layout" show="{{isLoaded}}">
+
+        <!-- ÜSTTE SAAT -->
+            <div class="clock-area">
+                <text class="time-label">{{timeText}}</text>
+            </div>
+
+        <!-- KAYDIRILABİLİR LİSTE -->
+            <list class="astro-list">
+
+            <!-- ÜST BOŞLUK -->
+                <list-item class="top-spacer">
+                    <div></div>
+                </list-item>
+
+            <!-- ASTRO VERİLER -->
+                <list-item
+                        class="list-item"
+                        for="{{astroData}}">
+
+                    <div class="clock-area">
+                        <text class="time-label">
+                            {{$item}}
+                        </text>
+                    </div>
+
+                </list-item>
+
+            <!-- ALT BOŞLUK -->
+                <list-item class="bottom-spacer">
+                    <div></div>
+                </list-item>
+
+            </list>
+
+        </div>
+
+        <div class="loading-layout" show="{{!isLoaded}}">
+
+            <progress
+                    type="arc"
+                    class="progress-arc">
+            </progress>
+
+            <text class="status-label">
+                {{statusText}}
+            </text>
+
+        </div>
+
+    </stack>
+</div>

@@ -2,7 +2,7 @@
 
 Text-based astrology clock for Huawei GT 3 Pro / Lite Wearable.
 
-![Screenshot](screenshot.jpg)
+<img src="screenshot.jpg" width="260" alt="Huawei GT 3 Pro AstroClock Text screenshot">
 
 ## Target
 - Huawei GT 3 Pro
@@ -19,11 +19,6 @@ Text-based astrology clock for Huawei GT 3 Pro / Lite Wearable.
 - Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto and North Node
 - Whole Sign Houses
 - Scrollable text list
-
-## Important GT 3 Pro rendering note
-On the physical GT 3 Pro, text rendering is more restrictive than DevEco Preview. The working UI uses **22px** text for the rendered list/time elements. Smaller values such as 14–18px may appear correctly in Preview but can disappear on the actual watch.
-
-For this reason, test layout changes on the real device, not only in Preview.
 
 ## Location permission
 The project requests `ohos.permission.LOCATION` in `entry/src/main/config.json`.

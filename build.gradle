@@ -1,0 +1,24 @@
+// Top-level build file for the Huawei GT 3 Pro AstroClock text project.
+apply plugin: 'com.huawei.ohos.app'
+
+ohos {
+    compileSdkVersion 5
+}
+
+buildscript {
+    repositories {
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.1.5.0'
+        classpath 'com.huawei.ohos:decctest:1.2.7.20'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}

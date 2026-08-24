@@ -2,6 +2,17 @@
 
 A lightweight text-based astrology app for **Huawei GT 3 Pro / liteWearable** built with DevEco Studio.
 
+## Development requirements
+
+DevEco Studio: 3.1.0.501
+API version: API 5
+Target device: Huawei GT 3 Pro
+Device type: liteWearable
+
+This project was developed and tested with DevEco Studio 3.1.0.501
+and is intended to be built using API 5.
+
+
 ## Features
 
 - Current device time and date
